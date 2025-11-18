@@ -1,0 +1,135 @@
+:root {
+  --orange-color: #fc6a03;
+  --white-color: #fff;
+  --peach-color: peachpuff;
+  --black-color: #000;
+}
+
+/* Buttons */
+#collection_btn,
+#story_btn,
+#subscribe_btn,
+#learn_btn {
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+
+#collection_btn {
+  color: var(--black-color);
+  background-color: var(--orange-color);
+}
+
+#story_btn {
+  color: var(--orange-color);
+  background-color: var(--white-color);
+  border: 1px solid var(--orange-color);
+}
+#subscribe_btn {
+  color: var(--white-color);
+  background-color: var(--black-color);
+}
+#learn_btn {
+  color: var(--black-color);
+  border: 1px solid var(--black-color);
+}
+/* Sections */
+.landing_page {
+  padding: 60px 0;
+}
+
+.my-background-element {
+  background-image: url("images/cream_lady_backhground.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fragrance_collection {
+  background-color: var(--orange-color);
+  color: var(--white-color);
+  padding: 60px 20px;
+}
+
+.skincareRituals {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
+    url("images/cream_lady_backhground.jpeg");
+  background-size: cover;
+  color: var(--white-color);
+  padding: 60px 20px;
+}
+
+.bodycare {
+  background-color: var(--peach-color);
+  padding: 60px 20px;
+}
+
+.vl {
+  border-left: 2px solid var(--orange-color);
+  height: 50px;
+  margin-right: 1%;
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.footer_section {
+  background-color: var(--orange-color);
+  color: var(--white-color);
+}
+
+.footer_heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+#subscribe_btn {
+  background-color: var(--white-color);
+  color: var(--orange-color);
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+
+#subscribe_btn:hover {
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
+#learn_btn {
+  background-color: transparent;
+  color: var(--white-color);
+  border: 1px solid var(--white-color);
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+
+#learn_btn:hover {
+  background-color: var(--white-color);
+  color: var(--orange-color);
+}
+
+.ritual-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.story-quote {
+  border-left: 4px solid #ffc107;
+  padding-left: 1.5rem;
+}
+
+.hr-short {
+  color: #ffc107;
+  height: 2px;
+  opacity: 1;
+  width: 50px;
+}
+
+.footer_section a {
+  color: inherit;
+}
